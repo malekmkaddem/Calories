@@ -1,0 +1,59 @@
+/*
+Malek Mkaddem
+Calorie Calculator Lab#3
+This program will calculate the total calories and fat percentage based on 3 entries.
+*/
+body {
+    font-family: fantasy , Helvetica, sans-serif;
+    font-size: 16pt;
+    margin: 0 auto;
+    width: 800px;
+    background-image: url(backgroundImg.jpg);
+    background-size:cover;
+
+   
+}
+
+h1 {
+    font-family: fantasy , Helvetica, sans-serif;
+    font-size: 66pt;
+    color: deepskyblue;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 10em;
+	text-align: right;
+	margin-right: 0.5em;
+}
+
+#calculate {
+    color: orange;
+    background-color: deepskyblue;
+    width: 300px;
+    height: 40px;
+    font-family: fantasy , Helvetica, sans-serif;
+    font-size: 20pt;
+    border-radius: 14px;
+}
+#clear {
+    color: orange;
+    background-color: deepskyblue;
+    width: 300px;
+    height: 40px;
+    font-family: fantasy , Helvetica, sans-serif;
+    font-size: 20pt;
+    border-radius: 14px;
+}
+#totalcalories {
+    color: red;
+    font-size: 24pt;
+}
+#fatpercentage{
+    color: red;
+    font-size: 24pt;
+}

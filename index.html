@@ -1,0 +1,54 @@
+<!—
+Malek Mkaddem
+Calorie Calculator Lab#3
+This program will calculate the total calories and fat percentage based on 3 entries.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Miles Per Gallon Calculator</title>
+    <link rel="stylesheet" href="mpg.css">
+</head>
+<body>
+    <main>
+        <h1>Calorie Calculator</h1>
+        <div>
+            <label for="fatgrams">Fat Grams:</label>
+            <input type="text" id="fatgrams">
+        </div>
+        <div>
+            <label for="carbgrams">Carb Grams:</label>
+            <input type="text" id="carbgrams">
+        </div>
+        <div>
+            <label for="proteingrams">Protein Grams:</label>
+            <input type="text" id="proteingrams">
+        </div>
+        
+        
+        <div>
+            <label for="totalcalories">Total Calories:</label>
+            <input type="text" id="totalcalories" disabled>
+        </div>
+        <div>
+            <label for="fatpercentage">Fat Percentage:</label>
+            <input type="text" id="fatpercentage" disabled>
+        </div>
+        
+        <div>
+            <label>&nbsp;</label>
+            <input type="button" id="calculate" value="Calculate MPG">
+        </div>
+        <div>
+            <label>&nbsp;</label>
+            <input type="button" id="clear" value="Clear">
+        </div>
+        
+    </main>
+    <script src="mpg.js"></script>   
+</body>
+
+</html>
