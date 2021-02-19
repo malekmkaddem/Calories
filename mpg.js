@@ -4,7 +4,7 @@ Calorie Calculator Lab#3
 This program will calculate the total calories and fat percentage based on 3 entries.
 */
 "use strict";
-    alert("Yay ! Connected :)")
+    //alert("Yay ! Connected :)")
 // assigning selector and error msg  
 const sel = selector => document.querySelector(selector);
 const getErrorMsg = (lbl) => `sel{lbl} is not correct!The number you have typed must be positive`;
@@ -18,7 +18,7 @@ const focusAndSelect = selector => {
 };
 // this function is to make clear button delete (reset) all 5 boxes.
  const clearbox = () => {
-        alert("Connected")
+      //  alert("Connected")
      sel("#fatgrams").value = ("");
      sel("#carbgrams").value = ("");
      sel("#proteingrams").value = ("");
